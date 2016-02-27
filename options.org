@@ -1,0 +1,5 @@
+#+AUTHOR: Houtan Bastani
+#+EMAIL: houtan.bastani@ens.fr
+#+OPTIONS: num:nil toc:nil author:nil timestamp:1 ^:{} creator:on timestamp:on author:off
+#+STYLE: <link rel="stylesheet" type="text/css" href="worg.css" />
+##+LINK_HOME= ./index.html
