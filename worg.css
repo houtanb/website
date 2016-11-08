@@ -54,9 +54,9 @@
 
   .title {
     color: #990000;
-    padding-bottom: 7px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #222;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0px solid #222;
   }
 
   h2 {
@@ -95,7 +95,6 @@
     text-align: center;
     color: grey;
   }
-
 
   p.email {
     font-family: monospace;
@@ -902,6 +901,10 @@
   .rss_item a:hover {}
   .rss_date {}
 
+  div.mytopclass{
+      text-align:center;
+      line-height:40px;
+  }
 } /* END OF @media all */
 
 
