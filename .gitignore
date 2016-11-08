@@ -3,3 +3,6 @@
 \#*\#
 *.txt
 *.bak.org
+*.m
+*.tar.gz
+*.nml
