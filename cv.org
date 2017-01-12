@@ -32,7 +32,7 @@
 - Focused on development of Dynare
 - Responsible for distribution on OS X
 - Created Dynare's reporting functionality
-- Programmed VAR forecasts in Dynare
+- Programmed VAR forecast functionality in Dynare
 - Integrated Sims, Waggoner and Zha MS-SBVAR code into Dynare
 - Debian server administration
 ** 2011: Consultant for the [[http://www.frbatlanta.org/cqer/][Center for Quantitative Economic Research, Federal Reserve Bank of Atlanta]]
