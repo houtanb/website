@@ -32,6 +32,7 @@
 - Focused on development of Dynare
 - Responsible for distribution on OS X
 - Created Dynare's reporting functionality
+- Programmed VAR forecasts in Dynare
 - Integrated Sims, Waggoner and Zha MS-SBVAR code into Dynare
 - Debian server administration
 ** 2011: Consultant for the [[http://www.frbatlanta.org/cqer/][Center for Quantitative Economic Research, Federal Reserve Bank of Atlanta]]
@@ -69,7 +70,7 @@
 * Computer skills
 ** Operating systems: [[http://www.dynare.org/houtan/macCodingSetup.html][OS X]], GNU/Linux, Windows
 ** Programming languages: C, C++, Fortran, Julia, Matlab, Java, VB .Net
-** Other: Flex & Bison, PLY, EViews, SQL, Emacs, [[http://www.dynare.org/houtan/git.html][Git]], server administration, general web development
+** Other: Flex, Bison, PLY, EViews, SQL, Emacs, [[http://www.dynare.org/houtan/git.html][Git]], server administration (Bacula, Apache, etc.), general web development
 ** Occasional contributer to [[https://github.com/Homebrew/homebrew][Hombrew]] and [[https://github.com/Homebrew/homebrew-science][Homebrew-Science]]
 ** [[https://github.com/houtanb][GitHub Account]]
 ** [[http://stackoverflow.com/users/5449925/hbhb?tab=profile][Stack Overflow Account]]
