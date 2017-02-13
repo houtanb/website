@@ -8,3 +8,4 @@
 * [[file:cv.org][Curriculum Vitae]]
 * [[file:git.org][Git Handouts For Economists]]
 * [[file:macCodingSetup.org][Scientific Computing on a Mac]]
+* [[https://www.instagram.com/hbcreated/][Jewelry Making]]
