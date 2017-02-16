@@ -7,7 +7,7 @@
 #+HTML_HEAD:<link rel="stylesheet" type="text/css" href="worg.css" />
 #+HTML:<div class="mytopclass">
 #+HTML:    <img style="float:left; width: 11%;" src="./HB2.jpg" alt="" />
-#+HTML:    <h1 style="float:center; width: 89%; text-align: center; color:#990000; padding-bottom: 0px; margin-bottom: 0px; margin-top: 0px;">Houtan Bastani</h1>
+#+HTML:    <h1 style="float:center; width: 89%; text-align: center; color:#990000; padding-bottom: 0px; margin-bottom: 0px; margin-top: 0px;">Houtan BASTANI</h1>
 #+HTML:    <p class="email" style="float:center; width: 89%; text-align: center; margin-bottom: 0px; margin-top: 0px;">houtan@dynare.org</p>
 #+HTML:    <p style="float:center; width: 89%; text-align: center; font-weight: bold; margin-bottom: 0px; margin-top: 0px;">Currently accepting freelance job opportunities</p>
 #+HTML:</div><hr style="clear:both"></hr>
