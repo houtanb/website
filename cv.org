@@ -30,7 +30,7 @@
 * Work Experience
 ** 2009-present: Researcher/Developer on the [[http://www.dynare.org/][Dynare]] Team, [[http://www.cepremap.fr][CEPREMAP]]
 - Focused on development of Dynare
-- Responsible for distribution on OS X
+- Responsible for distribution on macOS
 - Created Dynare's reporting functionality
 - Programmed VAR forecast functionality in Dynare
 - Integrated Sims, Waggoner and Zha MS-SBVAR code into Dynare
@@ -68,7 +68,7 @@
 *** with Luca Guerrieri, [[http://www.amazon.com/Advances-Automatic-Differentiation-Computational-Engineering/dp/3540689354][_Advances in Automatic Differentiation_]], Eds. Bischof, C.H., et. al. Berlin: Springer-Verlag, 2008. 303-314
 *** Code available here: https://github.com/houtanb/aimad
 * Computer skills
-** Operating systems: [[http://www.dynare.org/houtan/macCodingSetup.html][OS X]], GNU/Linux, Windows
+** Operating systems: [[http://www.dynare.org/houtan/macCodingSetup.html][macOS]], GNU/Linux, Windows
 ** Programming languages: C, C++, Fortran, Julia, Matlab, Java, VB .Net
 ** Other: Flex, Bison, PLY, EViews, SQL, Emacs, [[http://www.dynare.org/houtan/git.html][Git]], server administration (Bacula, Apache, etc.), general web development
 ** Occasional contributer to [[https://github.com/Homebrew/homebrew][Hombrew]] and [[https://github.com/Homebrew/homebrew-science][Homebrew-Science]]
@@ -77,7 +77,7 @@
 * Languages
 ** English (native); Farsi, Italian, and French (advanced)
 * Interests
-** Sports: badminton, squash, jogging, yoga
+** Sports: badminton, squash, soccer, jogging, yoga
 ** Hobbies: [[https://www.instagram.com/hbcreated/][making jewelry]]
 ** Have travelled extensively
 * References Available Upon Request
