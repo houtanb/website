@@ -1,7 +1,7 @@
 #+SETUPFILE: ./options.org
 #+TITLE:
 #+DESCRIPTION: Houtan Bastani's CV / Resume
-#+KEYWORDS: Houtan Bastani CV Resume Résumé about
+#+KEYWORDS: Houtan Bastani Resume Résumé about CV curriculum vitae
 #+HTML:<script src="//static.getclicky.com/js" type="text/javascript"></script>
 #+HTML:<script type="text/javascript">try{ clicky.init(66477573); }catch(e){}</script>
 #+HTML_HEAD:<link rel="stylesheet" type="text/css" href="worg.css" />
