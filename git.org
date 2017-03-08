@@ -2,10 +2,11 @@
 #+TITLE: Git Handouts
 #+DESCRIPTION: Git For Economists
 #+KEYWORDS: Git For Economists
+#+HTML_HEAD:<link rel="stylesheet" type="text/css" href="worg.css" />
 #+HTML:<script src="//static.getclicky.com/js" type="text/javascript"></script>
 #+HTML:<script type="text/javascript">try{ clicky.init(66477573); }catch(e){}</script>
-This summer, I gave two non-technical classes to groups of economits on git.
-Though originally designed as a code management system, it has a use far beyond the computer science world.
+In the summer of 2012, I gave two non-technical classes to groups of economits at the IMF on git.
+Though originally designed as a code management system, git has a use far beyond the computer science world.
 For economists (and researchers in general), using git for your research projects can save you a lot of time and headache, as it tracks the development history of your project, all the while making it easy to share.
 Basically, if you've ever been in the situation where you copy a directory to try out "a new idea", you need git.
 If you have ever been in doubt where the "correct" version of your project is, you need git.
