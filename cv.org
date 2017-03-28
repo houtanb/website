@@ -28,14 +28,14 @@
 ** 1999-03: Dean’s List
 ** 1998: [[http://www.hbwoodlawn.org/][H-B Woodlawn]] Alumni Scholarship
 * Work Experience
-** 2009-present: Research Software Engineer on the [[http://www.dynare.org/][Dynare]] Team, [[http://www.cepremap.fr][CEPREMAP]]
+** 2009-present: Research Software Engineer, [[http://www.dynare.org/][Dynare]] Team, [[http://www.cepremap.fr][CEPREMAP]]
 - Focused on development of Dynare
 - Responsible for distribution on macOS
 - Created Dynare's reporting functionality
 - Programmed VAR forecast functionality in Dynare
 - Integrated Sims, Waggoner and Zha MS-SBVAR code into Dynare
 - Debian server administration
-** 2011: Consultant for the [[http://www.frbatlanta.org/cqer/][Center for Quantitative Economic Research, Federal Reserve Bank of Atlanta]]
+** 2011: Consultant, [[http://www.frbatlanta.org/cqer/][Center for Quantitative Economic Research, Federal Reserve Bank of Atlanta]]
 - Worked for Dan Waggoner and Tao Zha, creating an interface for use with their
   Regime-Switching DSGE models.
 ** 2006-08: Research Assistant, [[http://www.federalreserve.gov/][Board of Governors of the Federal Reserve System]]
@@ -58,7 +58,7 @@
   cluster. Found inconsistencies between the Microsoft implementation
   of the Message Passing Interface for parallel communication and the
   industry standard.
-** 2001: Teaching Assistant for Introductory Italian, [[http://www.wm.edu][College of William & Mary]]
+** 2001: Teaching Assistant, Introductory Italian, [[http://www.wm.edu][College of William & Mary]]
 - Taught Italian to eleven undergraduate students two times a week,
   fostering conversation and assessing participation.
 * Publications
