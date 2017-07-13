@@ -35,6 +35,7 @@
     - [[https://github.com/DynareTeam/reporting][Dynare's Reporting functionality]]
     - Dynare's test suite, [[http://www.dynare.org/testsuite/master/matlab/][run nightly upon commit]]
     - Integrated Sims, Waggoner and Zha MS-SBVAR code
+    - JSON and Julia output of preprocessor
     - among others...
 - Responsible for distribution on macOS: create [[http://www.dynare.org/download/dynare-stable][installation packages]] and [[http://www.dynare.org/snapshot/macosx/][snapshots]]; created and maintain installation scripts on [[https://github.com/Homebrew/homebrew-science][Homebrew-Science]]
 - Debian server administration (manage users, email addresses, bacula backups, etc.)
