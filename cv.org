@@ -29,12 +29,18 @@
 ** 1998: [[http://www.hbwoodlawn.org/][H-B Woodlawn]] Alumni Scholarship
 * Work Experience
 ** 2009-present: Research Software Engineer, [[http://www.dynare.org/][Dynare]] Team, [[http://www.cepremap.fr][CEPREMAP]]
-- Focused on development of Dynare
+- Focused on development of Dynare preprocessor
+- Programmed:
+    - Estimation: OLS and SUR
+    - Gibbs Sampling for SUR
+    - VAR forecasts
+    - Dynare's reporting functionality
+    - Dynare's test suite
+    - Integrated Sims, Waggoner and Zha MS-SBVAR code
+    - among others...
 - Responsible for distribution on macOS
-- Created Dynare's reporting functionality
-- Programmed VAR forecast functionality in Dynare
-- Integrated Sims, Waggoner and Zha MS-SBVAR code into Dynare
-- Debian server administration
+- Debian server administration (manage users, email addresses, bacula backups, etc.)
+- Webmaster [[http://www.dynare.org]] and [[http://www.cepremap.org]]
 ** 2011: Consultant, [[http://www.frbatlanta.org/cqer/][Center for Quantitative Economic Research, Federal Reserve Bank of Atlanta]]
 - Worked for Dan Waggoner and Tao Zha, creating an interface for use with their
   Regime-Switching DSGE models.
