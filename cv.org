@@ -40,7 +40,7 @@
     - among others...
 - Responsible for distribution on macOS
 - Debian server administration (manage users, email addresses, bacula backups, etc.)
-- Webmaster [[http://www.dynare.org]] and [[http://www.cepremap.org]]
+- Webmaster [[http://www.dynare.org]] and [[http://www.cepremap.fr]]
 ** 2011: Consultant, [[http://www.frbatlanta.org/cqer/][Center for Quantitative Economic Research, Federal Reserve Bank of Atlanta]]
 - Worked for Dan Waggoner and Tao Zha, creating an interface for use with their
   Regime-Switching DSGE models.
