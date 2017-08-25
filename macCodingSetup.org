@@ -17,22 +17,26 @@
 *** The special characters are represented by the ^[[A and ^[[B bits on each line. These are, respectively, the Up Arrow and Down Arrow keys. So how do you type them in nano?
 *** Copy and paste the first part of each line above (bind '"), and then press Escape-V. When you do, you’ll see a little tag at the bottom of the window that reads [ Verbatim Input ]. Now press the Up Arrow (or Down Arrow, depending on the line), and you’ll see the above codes appear (and you’ll exit Verbatim Input mode when you press the arrow key). After that, just copy and paste the rest of each line, and you’re done.
 * Finder
-** I like having the current path in the Finder title bar. To have this, I run the following at the terminal prompt:
+** I like having the current path in the Finder title bar. If you like it, run the following at the terminal prompt:
 *** defaults write com.apple.finder _FXShowPosixPathInTitle -bool true; killall Finder
 * Package Manager
-** [[http://mxcl.github.com/homebrew/][Homebrew]] provides simple downloads of open source software that isn't included in XCode (e.g., gfortran). It's easy and, generally speaking, doesn't duplicate downloads you already have from elsewhere (i.e., you won't have multiple gcc versions floating around)
+** [[http://mxcl.github.com/homebrew/][Homebrew]] provides simple downloads of open source software that isn't included in XCode (e.g., gfortran) or by default on macOS.
 * Other Useful Programs
 ** [[http://spectacleapp.com][Spectacle]]
 ** [[http://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en][PCKeyboardHack]]
 ** [[http://pqrs.org/macosx/keyremap4macbook/index.html.en][KeyRemap4MacBook]]
 ** Git (also, see my [[file:git.org][git handouts]])
-*** I use [[http://rowanj.github.io/gitx/][GitX-dev]] (a fork of the apparently defunct [[http://gitx.frim.nl/][GitX]]) if you need a simple, light-weight Git GUI and are comfortable using git from the command line
+*** I used to use [[http://rowanj.github.io/gitx/][GitX-dev]] (a fork of the apparently defunct [[http://gitx.frim.nl/][GitX]]) as a simple, light-weight Git GUI to visualize the git history (I issue all commands from the command line). As it is rather buggy os 10.12, I have switched to [[https://git-fork.com/][Fork]], which is not as good but is the best/simplest GUI I  was able to find. SourceTree just has too much going on for me.
 * Software distribution on a Mac
+** I use [[http://s.sudre.free.fr/Software/Packages/about.html][Packages]] to create the Dynare macOS installer package.
+What follows is older and outdated for newer versions of macOS
 ** PackageMaker does what it sets out to do but is poorly documented, leaving the user to feel around for himself. This is especially true of its command line options, which become fairly important if you intend to automate the package-making process. After a bit of searching, I found several very useful links that make using PackageMaker far less inscrutable, though it's still not quite a pleasure :) Now, it would be wonderful if you could actually set GUI values from the command line (eg title, license, background image). Or, if that's already possible, I'd love to know how to do it :)
 ** [[http://www.manpagez.com/man/1/packagemaker/][Description of command line arguments for PackageMaker]]
 ** [[http://stackoverflow.com/questions/96882/how-do-i-create-a-nice-looking-dmg-for-mac-os-x-using-command-line-tools][Very useful guidance for automating the creation of a .dmg file]] I didn't end up going with this, but it's quite useful
 ** [[http://s.sudre.free.fr/Packaging.html][In general, the software and tutorials on this page are quite good]] Specifically, the program Packages seems like a good replacement for PackageMaker and the documentation is more straightforward
 * Scheduling Tasks
+** It seems like cron works on macOS now, so no need to fiddle with launchd!
+What follows is older and outdated for newer versions of macOS
 ** Cron v Launchd: the "new mac" way is to use launchd now that cron has been depricated. In this case, the Linux/Mac stereotypes have been reversed. Launchd is less straightforward to use than a crontab, but is far more versatile allowing you to run a job as a different user without modifying a shell script. The toughest thing is creating your Launchd plist, but luckily there are some really nice people out there that have spent the time to demystify it
 ** [[http://www.devdaily.com/mac-os-x/launchd-examples-launchd-plist-file-examples-mac][Really great resource to learn the Launchd plist basics]]
 ** [[http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man5/launchd.plist.5.html][Once you've gotten the gist of it, use the man page to customize it to your need]] (you can get the same info by typing `man launchd.plist` at the terminal prompt)
