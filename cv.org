@@ -28,7 +28,7 @@
 ** 1999-03: Dean’s List
 ** 1998: [[http://www.hbwoodlawn.org/][H-B Woodlawn]] Alumni Scholarship
 * Work Experience
-** 2009-present: Research Software Engineer, [[http://www.dynare.org/][Dynare]] Team, [[http://www.cepremap.fr][CEPREMAP]]
+** 2009-present: Researcher, [[http://www.dynare.org/][Dynare]] Team, [[http://www.cepremap.fr][CEPREMAP]]
 - Focused on development of Dynare preprocessor
 - Programmed:
     - OLS, FGLS, Gibbs Sampling for SUR models, VAR forecasts, ...
