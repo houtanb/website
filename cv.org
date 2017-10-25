@@ -11,7 +11,7 @@
 #+HTML:<p class="email" style="float:center; width: 100%; text-align: center; margin-bottom: 5px; margin-top: 0px;">houtan@dynare.org</p>
 #+HTML:<p style="float:center; width: 100%; text-align: center; font-weight: bold; margin-bottom: 5px; margin-top: 0px;">Currently accepting freelance job opportunities</p></div>
 #+HTML:<div class="column-right"><p style="float:right; text-align: left; margin-bottom: 0px; margin-top: 0px;">CEPREMAP<br/>
-#+HTML:Ecole Normale Supérieure<br/>
+#+HTML:École Normale Supérieure<br/>
 #+HTML:Ste R5-21<br/>
 #+HTML:48 boulevard Jourdan<br/>
 #+HTML:75014 Paris<br/>
