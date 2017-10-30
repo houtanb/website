@@ -1,9 +1,9 @@
 /* Modified version of Worg CSS file,
    downloaded at http://orgmode.org/worg/worg.css */
 
-.column-left{ float: left; width: 15%; }
-.column-right{ float: right; vertical-align: bottom;; width: 16%; }
-.column-center{ display: inline-block; width: 70%; }
+.column-left{ float: left; width: 25%; }
+.column-right{ float: right; vertical-align: bottom;; width: 25%; }
+.column-center{ display: inline-block; width: 50%; }
 
 @media all
 {
