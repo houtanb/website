@@ -85,7 +85,6 @@
 ** Other: Flex, Bison, PLY, EViews, SQL, Emacs, [[http://www.dynare.org/houtan/git.html][Git]], server administration (Bacula, Apache, etc.), general web development
 ** Occasional contributer to [[https://github.com/Homebrew/homebrew][Hombrew]] and [[https://github.com/Homebrew/homebrew-science][Homebrew-Science]]
 ** [[https://github.com/houtanb][GitHub Account]]
-** [[https://gitlab.com/houtanb][GitLab Account]]
 ** [[http://stackoverflow.com/users/5449925/hbhb?tab=profile][Stack Overflow Account]]
 * Languages
 ** English (native); Farsi, Italian, and French (advanced)
