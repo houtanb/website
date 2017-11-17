@@ -38,7 +38,7 @@
 ** 2009-present: Researcher, [[http://www.dynare.org/][Dynare]] Team, [[http://www.cepremap.fr][CEPREMAP]]
 - Focused on development of Dynare preprocessor
 - Programmed:
-    - OLS, Pooled OLS, FGLS, Gibbs Sampling for SUR models, VAR forecasts, etc.
+    - OLS, FGLS, Pooled OLS and FGLS, SUR, Gibbs Sampling for SUR models, VAR forecasts, etc.
     - [[https://github.com/DynareTeam/reporting][Dynare's Reporting functionality]]
     - Dynare's test suite, [[http://www.dynare.org/testsuite/master/matlab/][run nightly upon commit]]
     - Integrated Sims, Waggoner and Zha MS-SBVAR code
@@ -85,6 +85,7 @@
 ** Other: Flex, Bison, PLY, EViews, SQL, Emacs, [[http://www.dynare.org/houtan/git.html][Git]], server administration (Bacula, Apache, etc.), general web development
 ** Occasional contributer to [[https://github.com/Homebrew/homebrew][Hombrew]] and [[https://github.com/Homebrew/homebrew-science][Homebrew-Science]]
 ** [[https://github.com/houtanb][GitHub Account]]
+** [[https://gitlab.com/houtanb][GitLab Account]]
 ** [[http://stackoverflow.com/users/5449925/hbhb?tab=profile][Stack Overflow Account]]
 * Languages
 ** English (native); Farsi, Italian, and French (advanced)
