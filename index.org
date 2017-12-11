@@ -8,4 +8,5 @@
 * [[file:cv.org][Curriculum Vitae]]
 * [[file:git.org][Git Handouts For Economists]]
 * [[file:macCodingSetup.org][Scientific Computing on a Mac]]
+* [[http://www.dynare.org/houtan/travel/index.html][Places Travelled]]
 * [[https://www.instagram.com/hbcreated/][Jewelry Making]]
