@@ -1145,14 +1145,13 @@ footer .copyright {
   background-position: 50% 50%;
 }
 
+.post-content:hover {
+    cursor: pointer;
+}
+
 .post .post-content {
   padding: 1rem;
   width: 70%;
-}
-
-.post .post-content .post-date,
-.post .post-content .post-words {
-  font-size: 12px;
 }
 
 .post .post-content .post-title {
