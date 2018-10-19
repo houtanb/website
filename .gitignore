@@ -1,6 +1,8 @@
 *~
 \#*\#
 Gemfile.lock
+.DS_Store
+README.md
 
 _site/*
 .sass-cache/*
