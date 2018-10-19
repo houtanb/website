@@ -933,7 +933,7 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #ffffff;
+  background: linear-gradient( rgba(51, 204, 204, 0.5), rgba(200, 200, 0, 0.1) );
 }
 
 .about {
