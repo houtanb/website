@@ -1,0 +1,90 @@
+---
+layout: post
+title: Houtan Bastani's CV
+date: 2018-08-21
+description: Houtan Bastani's CV Resume
+---
+
+## Education
+#### 2008-09: MSc [Economics (Research)](http://www.lse.ac.uk/economics/study/taught-masters), [London School of Economics](http://www.lse.ac.uk/)
+Graduated with Merit
+#### 2000-03: BS [Economics](https://www.wm.edu/as/economics/) & [Computer Science](https://www.wm.edu/as/computerscience/), [College of William & Mary](https://www.wm.edu/)
+Graduated Summa Cum Laude, Phi Beta Kappa
+#### 1998-00: Candidate for BSE [Computer Science Engineering](http://www.cis.upenn.edu/index.php), [University of Pennsylvania](https://www.upenn.edu/)
+Transferred
+
+## Fellowships, Honors and Awards
+#### 2003-04: [Fulbright Scholar](http://us.fulbrightonline.org/program_country.html?id=54), Italy
+- Research project on the fiscal impacts of immigrants to Italy.
+
+#### 2002: Elected member of [Phi Beta Kappa](https://www.pbk.org/) honor society
+#### 2002: Frances L. and Edwin K. Cummings Scholar
+#### 2001, 2002: [NSF REU Program](https://www.nsf.gov/crssprgm/reu/)
+#### 1999-03: Dean's List
+#### 1998: [H-B Woodlawn](https://hbwoodlawn.apsva.us/) Alumni Scholarship
+
+## Work Experience
+#### 2009-present: Research Software Engineer, [Dynare Team](http://www.dynare.org/), [Cepremap](http://www.cepremap.fr/)
+- Focused on development of Dynare preprocessor
+- Programmed:
+  - OLS, FGLS, Pooled OLS and FGLS, SUR, Gibbs Sampling for SUR models, VAR forecasts, etc.
+  - Dynare's [Reporting](https://github.com/DynareTeam/reporting) functionality
+  - Dynare's test suite, run nightly upon commit
+  - Integrated Sims, Waggoner and Zha MS-SBVAR code
+  - JSON and Julia output of preprocessor
+  - among many others
+- Responsible for distribution on macOS: create installation packages and snapshots; created and maintain installation scripts on Homebrew
+- Debian server administration (manage users, email addresses, bacula backups, etc.)
+- Webmaster [http://www.dynare.org](http://www.dynare.org) and [http://www.cepremap.fr](http://www.cepremap.fr)
+
+#### 2018: Consultant, [Organisation for Economic Cooperation and Development](http://www.oecd.org/)
+- Worked on [MultiProd](http://www.oecd.org/sti/ind/multiprod.htm) Stata code
+- Gave [class on Git](/git)
+
+#### 2018: Consultant, Copywrighte Design
+- Created an interactive, in-store merchandising display using Python on a Raspberry Pi
+
+#### 2011: [Consultant, Center for Quantitative Economic Research, Federal Reserve Bank of Atlanta](https://www.frbatlanta.org/cqer/)
+- Worked for Dan Waggoner and Tao Zha, creating an interface for use with their Regime-Switching DSGE models.
+
+2006-08: Research Assistant, [Board of Governors of the Federal Reserve System](https://www.federalreserve.gov/)
+- Worked in the Trade and Financial Studies section of the Division of International Finance (IF), focusing on research improving the numerical methods for estimating parameters of Dynamic General Equilibrium models (see publications)
+- Developed simple forecast average models in EViews, producing forecasts of foreign real GDP growth and foreign inflation, to be used within IF
+- Generated FRB/Global alternative simulations to be included in the Greenbook every FOMC cycle
+- Conducted literature reviews
+
+#### 2005-06: Programmer, [Board of Governors of the Federal Reserve System(https://www.federalreserve.gov/)
+- Programmed various projects including the Check 21 survey for banks and Web Census. Both projects involved database design and programming in VB .Net.
+
+#### 2001-03: Research Assistant, Dr. Nikos Chrisochoides, [College of William & Mary](https://www.wm.edu/)
+- Ported parallel communication software from GNU/Linux to Windows so that multiple platforms could be used in parallel within a computing cluster. Found inconsistencies between the Microsoft implementation of the Message Passing Interface for parallel communication and the industry standard.
+
+#### 2001: Teaching Assistant, Introductory Italian, [College of William & Mary](https://www.wm.edu/)
+- Taught Italian to eleven undergraduate students two times a week, fostering conversation and assessing participation.
+
+## Publications
+#### [Dynare: Reference Manual, Version 4](http://www.dynare.org/wp-repo/dynarewp001.pdf)
+with Stephane Adjemian, Houtan Bastani, Michel Juillard, Ferhat Mihoubi, George Perendia, Marco Ratto, and Sebastien Villemot, Dynare Working Papers, no. 1, CEPREMAP, April 2011.
+
+#### [On the Application of Automatic Differentiation to the Likelihood Function for Dynamic General Equilibrium Models](https://www.federalreserve.gov/pubs/ifdp/2008/920/ifdp920.pdf)
+with Luca Guerrieri, Advances in Automatic Differentiation, Eds. Bischof, C.H., et. al. Berlin: Springer-Verlag, 2008. 303-314
+Code available here: [https://github.com/houtanb/aimad](https://github.com/houtanb/aimad)
+
+## Computer skills
+#### Operating systems: [macOS](scientific-computing-on-macos/), GNU/Linux, Windows
+#### Programming languages: C, C++, Fortran, Julia, Matlab, Java, VB .Net
+#### Other: Flex, Bison, PLY, EViews, SQL, Emacs, [Git](git), server administration (Bacula, Apache, etc.), general web development
+#### Occasional contributer to [Hombrew-Core](https://github.com/Homebrew/homebrew-core)
+#### [GitHub Account](https://github.com/houtanb)
+#### [Stack Overflow Account](https://stackoverflow.com/users/5449925/houtanb?tab=profile)
+
+## Languages
+#### Native: English
+#### Advanced: Farsi, French, and Italian
+
+## Interests
+#### Hobbies: [making jewelry](https://www.instagram.com/hbcreated/)
+#### Sports: badminton, squash, soccer, yoga
+#### [Have travelled extensively](travel)
+
+## References Available Upon Request
