@@ -3,7 +3,7 @@ layout: post
 title: Git Class
 date: 2018-07-05
 description: Houtan Bastani's Git Class
-tags: [git]
+summary: A class I have given on Git a few times to economists
 ---
 
 In the summer of 2012, I gave two non-technical git classes to groups of economits at the IMF and I have since given the class at the OECD.

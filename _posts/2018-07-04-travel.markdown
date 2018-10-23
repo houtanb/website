@@ -3,6 +3,7 @@ layout: post
 title: Travels
 date: 2018-07-05
 description: Houtan Bastani's Travel Map
+summary: A map of my travels
 ---
 <script src="/houtan/assets/js/lib/jquery.min.js"></script>
 <script src="/houtan/assets/js/lib/highcharts/highmaps.js"></script>

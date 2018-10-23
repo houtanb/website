@@ -3,6 +3,7 @@ layout: post
 title: Setting up a Mac for Scientific Computing
 date: 2018-07-05
 description: Scientific Computing on macOS
+summary: Notes to myself about how to setup a new Mac
 ---
 
 # Scientific Programming on a Mac

@@ -1,7 +1,11 @@
 ---
 layout: main
 ---
+{% if page.title == "Jewelry" %}
+<article class="article-page" style="width: 100%; max-width: 100%;">
+{% else %}
 <article class="article-page">
+{% endif %}
   <div class="page-content">
     {% if page.img %}
     <div class="page-cover-image">

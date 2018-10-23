@@ -3,6 +3,7 @@ layout: post
 title: Houtan Bastani's CV
 date: 2018-08-21
 description: Houtan Bastani's CV Resume
+summary: My up-to-date CV
 ---
 
 ## Education
