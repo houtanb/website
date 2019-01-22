@@ -1,0 +1,229 @@
+---
+layout: post
+title: Houtan Bastani's CV
+date: 2019-01-22
+description: Houtan Bastani's CV Resume
+summary: My up-to-date CV
+---
+<div class="well">
+<!-- <div> -->
+  <div class="list-group">
+    <div class="list-group-item">
+      <div class="row-action-primary">
+          <i class="fas fa-file-pdf"></i>
+      </div>
+      <div class="row-content">
+        <span class="cv-section-title"><a href="../assets/bastani_houtan_cv.pdf">CV (PDF Version)</a></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br/>
+
+<div class="well">
+<!-- <div> -->
+  <div class="list-group">
+    <div class="list-group-item">
+      <div class="row-action-primary">
+        <i class="fa fa-graduation-cap"></i>
+      </div>
+      <div class="row-content">
+        <span class="cv-section-title">Education</span>
+      </div>
+    </div>
+    <!-- <div class="list&#45;group&#45;separator"></div> -->
+  </div>
+  {% for edu in site.data.cv.education %}
+  <div class="list-group">
+    <div class="list-group-item">
+      <div class="row-action-primary">
+        <i class="fa" style="color:transparent;opacity:0.0;"></i>
+      </div>
+      <div class="row-content">
+        <div class="cv-table">
+          <div class="cv-cell"><img class="edu-logo-img" src="{{site.baseurl}}/{{edu.logo}}" alt="" />&nbsp;{{ edu.institution }}</div>
+          <div class="cv-cell-right">{{ edu.end_Date }}</div>
+        </div>
+        {% for degree in edu.degrees %}
+          <p class="cv-position">{{ degree }}</p>
+        {% endfor %}
+        <ul>
+        {% for award in edu.awards %}
+          <li class="cv-listitem">{{ award }}</li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="list-group-separator"></div>
+  </div>
+  {% endfor %}
+</div>
+
+<br/>
+
+<div class="well">
+<!-- <div> -->
+  <div class="list-group">
+    <div class="list-group-item">
+      <div class="row-action-primary">
+        <i class="fa fa-suitcase"></i>
+      </div>
+      <div class="row-content">
+        <span class="cv-section-title">Experience</span>
+      </div>
+    </div>
+    <!-- <div class="list&#45;group&#45;separator"></div> -->
+  </div>
+
+  {% for work in site.data.cv.work %}
+  <div class="list-group">
+    <div class="list-group-item">
+      <div class="row-action-primary">
+        <i class="fa" style="color:transparent;opacity:0.0;"></i>
+      </div>
+      <div class="row-content">
+        <div class="cv-table">
+          <div class="cv-cell"><a href="{{ work.website }}">{{ work.company }}</a></div>
+          {% if work.start_Date == work.end_Date %}
+          <div class="cv-cell-right">{{ work.start_Date }}</div>
+          {% else %}
+          <div class="cv-cell-right">{{ work.start_Date }} - {{ work.end_Date }}</div>
+          {% endif %}
+        </div>
+        <p class="cv-position">{{ work.position }}</p>
+        <ul>
+          {% for h in work.highlights %}
+          <li>{{ h }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="list-group-separator"></div>
+  </div>
+  {% endfor %}
+</div>
+
+<br/>
+
+<div class="well cv-div-spanlist">
+<!-- <div> -->
+  <div class="list-group">
+    <div class="list-group-item">
+      <div class="row-action-primary">
+        <i class="fa fa-code"></i>
+      </div>
+      <div class="row-content">
+        <span class="cv-section-title">Technical Skills</span>
+      </div>
+    </div>
+    <!-- <div class="list&#45;group&#45;separator"></div> -->
+  </div>
+  <div class="cv-divTable">
+    <div class="cv-divTableBody">
+      {% for skill in site.data.cv.skills %}
+      {% assign mod = forloop.index | modulo: 2 %}
+      {% if forloop.index == 1 or forloop.inedx == 3 %}
+      <div class="cv-divTableRow">
+        {% endif %}
+        <div class="cv-divTableCell">
+          <div class="list-group">
+            <div class="list-group-item">
+              <div class="row-action-primary">
+                <i class="fa" style="color:transparent;opacity:0.0;"></i>
+              </div>
+              <div class="row-content">
+                <h4 class="list-group-item-heading cv-bolditem">{{ skill.name }}</h4>
+                <p class="cv-position">{{ skill.level }}</p>
+                <div class="cv-date"></div>
+                <ul>
+                  {% for kw in skill.keywords %}
+                  <li class="cv-listitem">{{ kw }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% if forloop.index == 2 or forloop.inedx == 4 %}
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<br/>
+
+<div class="well">
+<!-- <div> -->
+  <div class="list-group">
+    <div class="list-group-item">
+      <div class="row-action-primary">
+        <i class="fas fa-scroll"></i>
+      </div>
+      <div class="row-content">
+        <span class="cv-section-title">Publications</span>
+      </div>
+    </div>
+    <!-- <div class="list&#45;group&#45;separator"></div> -->
+  </div>
+
+  {% for p in site.data.cv.publications %}
+  <div class="list-group">
+    <div class="list-group-item">
+      <div class="row-action-primary">
+        <i class="fa" style="color:transparent;opacity:0.0;"></i>
+      </div>
+      <div class="row-content">
+        <h4 class="list-group-item-heading cv-bolditem"><a href="{{ p.website }}">{{ p.name }}</a></h4>
+        <p class="cv-position">with {{ p.co-authors }}, <i>{{ p.publisher }}</i>, {{ p.other-info }}, {{ p.releaseDate }}.</p>
+      </div>
+    </div>
+    <div class="list-group-separator"></div>
+  </div>
+  {% endfor %}
+</div>
+
+<br/>
+
+<div class="well">
+<!-- <div> -->
+  <div class="list-group">
+    <div class="list-group-item">
+      <div class="row-action-primary">
+        <i class="fa fa-language"></i>
+      </div>
+      <div class="row-content">
+        <span class="cv-section-title">Languages</span>
+      </div>
+    </div>
+    <!-- <div class="list&#45;group&#45;separator"></div> -->
+  </div>
+
+  <div class="list-group">
+    <div class="list-group-item">
+      <div class="row-action-primary">
+        <i class="fa" style="color:transparent;opacity:0.0;"></i>
+      </div>
+      <div class="row-content">
+        <h4 class="list-group-item-heading cv-bolditem"></h4>
+        <p class="cv-position"></p>
+        <div class="cv-date"></div>
+        <ul>
+  {% for lang in site.data.cv.languages %}
+    <li class="cv-listitem">{{ lang.language }}: {{ lang.fluency }}</li>
+  {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<!--
+  <div class="list-group cv-shorten">
+    <div class="list-group-item">
+    </div>
+    <div class="list-group-separator"></div>
+  </div>
+-->
+</div>

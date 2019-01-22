@@ -930,7 +930,7 @@ table tfoot td {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 240px;
+  width: 250px;
   height: 100%;
   padding: 20px 10px;
   background: linear-gradient( rgba(51, 204, 204, 0.5), rgba(200, 200, 0, 0.1) );
@@ -1150,14 +1150,14 @@ footer .copyright {
 }
 
 .post .post-content {
-  padding: 1rem;
-  width: 70%;
+  padding: 3rem;
+  width: 100%;
 }
 
 .post .post-content .post-title {
   margin: 0 0 10px;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .post .post-content .post-title a {
