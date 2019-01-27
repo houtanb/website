@@ -888,6 +888,16 @@ table tfoot td {
   position: relative;
 }
 
+.cv-well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 10px 0 rgba(31, 35, 46, 0.15);
+    box-shadow: 0 10px 10px 0 rgba(31, 35, 46, 0.15);
+}
+
 .post, .article-page {
   background-color: #fff;
   border-radius: 10px;
