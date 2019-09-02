@@ -32,6 +32,7 @@
 	        "Focused on development of Dynare preprocessor",
                 "Programmed:<ul>
     <li>OLS, FGLS, Pooled OLS and FGLS, SUR, Gibbs Sampling for SUR models, VAR forecasts, etc.</li>
+    <li>Interpreter for Dynare’s macro processing language</li>
     <li>Dynare’s Reporting functionality</li>
     <li>Dynare’s test suite, run nightly upon commit</li>
     <li>Integrated Sims, Waggoner and Zha MS-SBVAR code</li>
@@ -51,9 +52,9 @@
 	    "start_Date": "2018",
 	    "end_Date": "2018",
 	    "highlights": [
-		"Gave class on Git",
+		"Added Gandhi, Navarro and Rivers (2017) module to MultiProd codebase",
                 "Fixed bug in <a href=\"https://github.com/mcaceresb/stata-gtools\">Stata Gtools</a>",
-		"Worked on MultiProd code"
+                "Gave class on Git"
 	    ]
 	},
 	{
