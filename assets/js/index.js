@@ -11,6 +11,7 @@ $(function () {
         'bs',  // Bahamas
         'ca',  // Canada
         'ch',  // Switzerland
+        'cn',  // China
         'co',  // Colombia
         'cz',  // Czech Republic
         'de',  // Germany
@@ -26,6 +27,7 @@ $(function () {
         'id',  // Indonesia
         'ir',  // Iran
         'it',  // Italy
+        'lb',  // Lebanon
         'ma',  // Morocco
         'mm',  // Myanmar
         'mx',  // Mexico
@@ -33,7 +35,7 @@ $(function () {
         'nl',  // Netherlands
         'om',  // Oman
         'pt',  // Portugal
-        'qt',  // Qatar
+        'qa',  // Qatar
         'ro',  // Romania
         'sg',  // Singapore
         'si',  // Slovenia
@@ -112,7 +114,7 @@ $(function () {
             this.drilldown = getDrilldown(
                 us_data,
                 visited_states_in_us);
-            this.drilldownLabel = 'United States of America';
+            this.drilldownLabel = 'United States of America (States Visited: ' + visited_states_in_us.length + ')';
         }
         /*
         else if (this.properties[property] == 'in') {
@@ -157,11 +159,11 @@ $(function () {
             }
         },
         title : {
-            text : 'Around the world!!',
+            text : 'Travel',
         },
 
         subtitle: {
-            text: 'World',
+            text: 'World (Countries Visited: ' + visited_countries.length + ')',
         },
 
         mapNavigation: {
@@ -176,12 +178,14 @@ $(function () {
             dataClasses: [{
                 from: -100,
                 to: 0,
-                color: '#E5F5E0',
-                name: 'Pending'
+                //                color: '#E5F5E0',
+                color: '#CCFFCC',
+                name: 'Not yet visited'
             }, {
                 from: 0,
                 to: 100,
-                color: '#31A354',
+                //                color: '#31A354',
+                color: '#A64DFF',
                 name: 'Visited'
             }]
         },
