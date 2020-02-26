@@ -18,7 +18,7 @@
 title: Houtan Bastani
 email: houtan@dynare.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Houtan Bastani's website CV resume scientific numericas programming mac macOS
+  Houtan Bastani's website CV resume scientific numerical programming mac macOS
 permalink: ':title/'
 baseurl: "/houtan" # the subpath of your site, e.g. /blog
 url: "http://www.dynare.org" # the base hostname & protocol for your site, e.g. http://example.com
