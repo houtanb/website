@@ -1,0 +1,193 @@
+.edu-logo-img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-bottom: 0em;
+}
+h1 {
+    font-family: courier, courier new, serif;
+    font-size: 40px;
+}
+p {
+    font-family: courier, courier new, serif;
+    font-size: 20px;
+}
+a:link {
+    text-decoration: none;
+    color: #3377FF;
+}
+
+/* visited link */
+a:visited {
+    text-decoration: none;
+    color: #3377FF;
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration: underline;
+    color: #3377FF;
+}
+
+/* selected link */
+a:active {
+    text-decoration: underline;
+    color: #3377FF;
+}
+
+* { box-sizing: border-box; }
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    font: 1.2em Helvetica, arial, sans-serif;
+}
+
+.wrapper > * {
+    border: 1px solid #006699;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    padding: 10px;
+}
+.main-head {
+    grid-area: header;
+    text-align: center;
+    background-color: #FFF;
+    border: 0px;
+}
+.main-cv {
+  grid-area: cv;
+}
+.main-school {
+  grid-area: school;
+}
+.main-contact {
+  grid-area: contact;
+}
+.ad {
+  grid-area: ad;
+}
+.main-code {
+    grid-area: code;
+}
+.main-hobbies {
+  grid-area: hobbies;
+}
+.main-handouts {
+  grid-area: handouts;
+}
+.main-mac {
+    margin-bottom: 1.2rem 0;
+    grid-area: mac;
+}
+.main-footer {
+    grid-area: footer;
+    font-size: 10px;
+    background-color: #FFF;
+    border: 0px;
+}
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    "header"
+    "school"
+    "cv"
+    "contact"
+    "ad"
+    "code"
+    "hobbies"
+    "handouts"
+    "mac"
+    "footer";
+}
+@media (max-width: 500px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "school"
+      "cv"
+      "contact"
+      "code"
+      "hobbies"
+      "handouts"
+      "mac"
+      "footer";
+  }
+}
+@media (min-width: 700px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "header    header    header"
+      "school    cv        contact"
+      "code      hobbies   handouts"
+      "mac       mac       mac"
+      "footer    footer    footer"
+  }
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+.lbl-toggle {
+    color: #3377FF;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+    font-family: courier, courier new, serif;
+}
+
+.lbl-toggle:hover {
+    text-decoration: underline;
+}
+
+.lbl-toggle::before {
+    content: ' ';
+    display: inline-block;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid currentColor;
+    vertical-align: middle;
+    margin-right: .7rem;
+    transform: translateY(-2px);
+    transition: transform .2s ease-out;
+}
+
+.toggle:checked + .lbl-toggle::before {
+    transform: rotate(90deg) translateX(-3px);
+}
+
+.collapsible-content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+    max-height: 900vh;
+}
+
+.toggle:checked + .lbl-toggle {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.collapsible-content .content-inner {
+    font-family: courier, courier new, serif;
+    background: #F5F5F5;
+    padding: .5rem 1rem;
+}
+
+code {
+    background: hsl(220, 80%, 90%);
+}
+
+pre {
+    white-space: pre-wrap;
+    background: hsl(220, 80%, 90%);
+}

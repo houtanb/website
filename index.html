@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Houtan Bastani</title>
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(66477573);</script>
+  <script async src="//static.getclicky.com/js"></script>
+  <meta content="Houtan Bastani" property="og:site_name">
+  <meta content="Houtan Bastani" property="og:title">
+  <meta content="website" property="og:type">
+  <meta content="Houtan Bastani's website CV resume scientific numerical programming mac macOS" property="og:description">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="main-head">
+      <h1>Houtan Bastani</h1>
+    </div>
+    <div class="main-school">
+      <p><img class="edu-logo-img" alt="LSE" src="assets/images/lse.jpg" /> MSc <a href="http://www.lse.ac.uk/study-at-lse/Graduate/Degree-programmes-2020/MSc-Economics">Econ</a></p>
+      <p><img class="edu-logo-img" alt="WM" src="assets/images/wm.png" /> B.S. <a href="https://www.wm.edu/as/computerscience/">CS</a>, <a href="https://www.wm.edu/as/economics/">Econ</a></p>
+      <p><img class="edu-logo-img" alt="Penn" src="assets/images/penn.png" /> Candidate B.S.E. <a href="https://www.cis.upenn.edu/undergraduate/program-offerings/computer-science-bse/">CSE</a></p>
+    </div>
+    <div class="main-cv">
+      <p><a href="assets/pdfs/bastani_houtan_cv.pdf" onclick="clicky.log(this.href,this.innerText);">CV</a></p>
+      <p><a href="https://www.linkedin.com/in/houtanb" onclick="clicky.log(this.href,this.innerText);">LinkedIn</a></p>
+    </div>
+    <div class="main-contact">
+      <p>Open to Freelance Opportunities</p>
+      <p>houtanb@gmail.com</p>
+      <p>Phila., PA, USA</p>
+    </div>
+    <div class="main-code">
+      <p><img class="edu-logo-img" alt="GitHub" src="assets/images/github.png" /> <a href="https://github.com/houtanb/" onclick="clicky.log(this.href,this.innerText);">GitHub</a></p>
+      <p><img class="edu-logo-img" alt="GitLab" src="assets/images/gitlab.png" /> <a href="https://gitlab.com/houtanb/" onclick="clicky.log(this.href,this.innerText);">GitLab</a></p>
+      <p><img class="edu-logo-img" alt="GitLab" src="assets/images/gitlab.png" /> <a href="https://git.dynare.org/houtanb/" onclick="clicky.log(this.href,this.innerText);">GitLab Dynare</a></p>
+    </div>
+    <div class="main-hobbies">
+      <p><img class="edu-logo-img" alt="Instagram@hbcreated" src="assets/images/insta.png" /> <a href="https://www.instagram.com/hbcreated/" onclick="clicky.log(this.href,this.innerText);">Jewelry</a></p>
+    </div>
+    <div class="main-handouts">
+      <p><a href="assets/pdfs/git_1.pdf" onclick="clicky.log(this.href,this.innerText);">Git Class 1</a></p>
+      <p><a href="assets/pdfs/git_1_new_with_smartgit.pdf" onclick="clicky.log(this.href,this.innerText);">Git Class 1 (w/SmartGit)</a></p>
+      <p><a href="assets/pdfs/git_2.pdf" onclick="clicky.log(this.href,this.innerText);">Git Class 2</a></p>
+    </div>
+    <div class="main-mac">
+      <input id="collapsible" class="toggle" type="checkbox">
+      <label for="collapsible" class="lbl-toggle">Scientific Programming on a Mac</label>
+      <div class="collapsible-content">
+        <div class="content-inner">
+          <h4>References</h4>
+          Sourabh Bajaj has spent a lot more time outlining his setup than I
+          have. I'd encourage you to look at his page because it's a valuable
+          resource.
+
+          <h4>Emacs</h4>
+
+          I use <a href="https://emacsformacosx.com/">Gnu Emacs For Mac</a>
+          <br />My very simple,
+          fast-loading <a href="https://github.com/houtanb/emacs-config">emacs
+          config</a>
+
+          <h4>Terminal</h4>
+
+          I
+          used <a href="https://www.macworld.com/article/1146015/os-x/termhistory.html">
+          this modification</a> to my <code>.bashrc</code> file to allow me to
+          type in part of a command and then press the up/down arrow to search
+          through the history for commands beginning with that part (as in the
+          Matlab command line). Directly from the website (in case it goes
+          anywhere...)
+
+          <br />Add these two lines to the file, but note you can't copy and
+          paste these lines, as there are special characters in there (which
+          I'll explain how to enter).
+
+          <pre>
+
+ bind '"^[[A":history-search-backward'
+ bind '"^[[B":history-search-forward'
+          </pre>
+
+          <br />The special characters are represented by the <code>^[[A</code>
+          and <code>^[[B</code> bits on each line. These are, respectively, the
+          Up Arrow and Down Arrow keys. So how do you type them in nano?
+
+          <br />Copy and paste the first part of each line above (<code>bind
+          '"</code>), and then press Escape-V. When you do, you'll see a little
+          tag at the bottom of the window that reads <code>[ Verbatim Input
+          ]</code>. Now press the Up Arrow (or Down Arrow, depending on the
+          line), and you'll see the above codes appear (and you'll exit
+          Verbatim Input mode when you press the arrow key). After that, just
+          copy and paste the rest of each line, and you're done.
+
+          <h4>Finder</h4>
+
+          I like having the current path in the Finder title bar. If you like
+          it, run the following at the terminal prompt:
+
+          <pre>
+
+ defaults write com.apple.finder _FXShowPosixPathInTitle -bool true; killall Finder
+          </pre>
+
+          <h4>Package Manager</h4>
+
+          <a href="https://brew.sh/">Homebrew</a> provides simple downloads of
+          open source software that isn't included in XCode
+          (e.g., <code>gfortran</code>) or by default on macOS.
+
+          <h4>Other Useful Programs</h4>
+
+          <a href="https://www.spectacleapp.com/">Spectacle</a>
+          <a href="https://pqrs.org/osx/karabiner/">Karabiner</a>
+          Git (also, see [my git handouts](/git))
+
+          I used to use <a href="http://rowanj.github.io/gitx">GitX-dev</a> (a
+          fork of the apparently
+          defunct <a href="http://gitx.frim.nl/">GitX</a>) as a simple,
+          light-weight Git GUI to visualize the git history (I issue all
+          commands from the command line). As it is rather buggy os 10.12, I
+          have switched to <a href="https://git-fork.com/">Fork</a>, which is
+          not as good but is the best/simplest GUI I was able to
+          find. SourceTree just has too much going on for me.
+
+          <h4>Software distribution on a Mac</h4>
+
+          I
+          use <a href="http://s.sudre.free.fr/Software/Packages/about.html">Packages</a>
+          to create the Dynare macOS installer package.
+
+          <h5>What follows is older and outdated for newer versions of macOS</h5>
+
+          PackageMaker does what it sets out to do but is poorly documented,
+          leaving the user to feel around for himself. This is especially true
+          of its command line options, which become fairly important if you
+          intend to automate the package-making process. After a bit of
+          searching, I found several very useful links that make using
+          PackageMaker far less inscrutable, though it's still not quite a
+          pleasure :) Now, it would be wonderful if you could actually set GUI
+          values from the command line (eg title, license, background
+          image). Or, if that's already possible, I'd love to know how to do it
+          :)
+
+          <p><a href="http://www.manpagez.com/man/1/packagemaker/">Description of command line arguments for PackageMaker</a></p>
+
+          <p><a href="https://stackoverflow.com/questions/96882/how-do-i-create-a-nice-looking-dmg-for-mac-os-x-using-command-line-tools">Very useful guidance for automating the creation of a .dmg file I didn't end up going with this, but it's quite useful</a></p>
+
+          <p><a href="http://s.sudre.free.fr/Packaging.html">In general, the software and tutorials on this page are quite good</a>. Specifically, the program Packages seems like a good replacement for PackageMaker and the documentation is more straightforward</p>
+
+          <h4>Scheduling Tasks</h4>
+
+          It seems like <code>cron</code> works on macOS now, so no need to
+          fiddle with <code>launchd</code>!
+
+          <h5>What follows is older and outdated for newer versions of macOS</h5>
+
+          Cron v Launchd: the "new mac" way is to use launchd now that cron has
+          been depricated. In this case, the Linux/Mac stereotypes have been
+          reversed. Launchd is less straightforward to use than a crontab, but
+          is far more versatile allowing you to run a job as a different user
+          without modifying a shell script. The toughest thing is creating your
+          Launchd plist, but luckily there are some really nice people out
+          there that have spent the time to demystify it
+
+          <a href="https://alvinalexander.com/mac-os-x/launchd-examples-launchd-plist-file-examples-mac">Really
+          great resource to learn the Launchd plist basics</a>
+
+          Once you've gotten the gist of it, use the man page to customize it
+          to your need (you can get the same info by typing `man launchd.plist`
+          at the terminal prompt)
+
+          <h4>Dvorak</h4>
+
+          After having had RSI problems with my wrists and forearms, I made the
+          switch to a Dvorak keyboard layout (System Preferences...-> Language
+          & Text -> Input Sources -> Search for Dvorak). Though I made the
+          switch without any typing lessons (I just printed out the keyboard
+          map, and struggled with it for a while...even, quite dorkily, walking
+          down the street, saying a letter and moving the associated
+          dvorak-finger to overwrite my qwerty muscle memory), you don't have
+          to! Here's a
+          great <a href="http://gigliwood.com/abcd/lessons/">dvorak typing</a>
+          lesson website, that'll take you back to your 6th grade typing class
+          :)
+
+          <a href="http://www.mit.edu/~jcb/Dvorak/">Good Dvorak Resource</a>
+
+          <h4>Keyboard Bindings</h4>
+
+          I followed the advice on this site for rebinding my caps lock key to
+          be used as a key modifier for use
+          with <a href="https://github.com/jigish/slate">Slate</a> and for
+          binding the shift keys to left and right parenthesis when not used
+          with another key.
+        </div>
+      </div>
+    </div>
+    <div class="main-footer">
+      &copy; 2020 Houtan Bastani. Content licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+    </div>
+  </div>
+</body>
+</html>
