@@ -99,9 +99,9 @@ a:active {
     "mac"
     "footer";
 }
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .wrapper {
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     grid-template-areas:
       "header"
       "school"
@@ -114,7 +114,7 @@ a:active {
       "footer";
   }
 }
-@media (min-width: 700px) {
+@media screen and (min-width: 600px) {
   .wrapper {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
