@@ -5,11 +5,12 @@
     margin-bottom: 0em;
 }
 h1 {
-    font-family: courier, courier new, serif;
     font-size: 40px;
 }
-p {
+body {
     font-family: courier, courier new, serif;
+}
+p {
     font-size: 20px;
 }
 a:link {
@@ -40,7 +41,7 @@ a:active {
 .wrapper {
     max-width: 1024px;
     margin: 0 auto;
-    font: 1.2em Helvetica, arial, sans-serif;
+    font-size: 1.2em;
 }
 
 .wrapper > * {
@@ -55,17 +56,14 @@ a:active {
     background-color: #FFF;
     border: 0px;
 }
-.main-cv {
-  grid-area: cv;
-}
 .main-school {
   grid-area: school;
 }
+.main-cv {
+  grid-area: cv;
+}
 .main-contact {
   grid-area: contact;
-}
-.ad {
-  grid-area: ad;
 }
 .main-code {
     grid-area: code;
@@ -139,7 +137,6 @@ input[type='checkbox'] {
     padding: 1rem;
     cursor: pointer;
     transition: all 0.25s ease-out;
-    font-family: courier, courier new, serif;
 }
 
 .lbl-toggle:hover {
@@ -178,7 +175,6 @@ input[type='checkbox'] {
 }
 
 .collapsible-content .content-inner {
-    font-family: courier, courier new, serif;
     background: #F5F5F5;
     padding: .5rem 1rem;
 }
