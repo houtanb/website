@@ -88,42 +88,60 @@ a:active {
   display: grid;
   grid-gap: 20px;
   grid-template-areas:
-    "header"
-    "school"
-    "cv"
-    "contact"
-    "ad"
-    "code"
-    "hobbies"
-    "handouts"
-    "mac"
-    "footer";
+    'header'
+    'school'
+    'cv'
+    'contact'
+    'ad'
+    'code'
+    'hobbies'
+    'handouts'
+    'mac'
+    'footer';
 }
-@media screen and (max-width: 500px) {
-  .wrapper {
-    grid-template-columns: 100%;
-    grid-template-areas:
-      "header"
-      "school"
-      "cv"
-      "contact"
-      "code"
-      "hobbies"
-      "handouts"
-      "mac"
-      "footer";
-  }
+
+@media (pointer:fine) {
+    .wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            'header    header    header'
+            'school    cv        contact'
+            'code      hobbies   handouts'
+            'mac       mac       mac'
+            'footer    footer    footer'
+    }
 }
-@media screen and (min-width: 600px) {
-  .wrapper {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:
-      "header    header    header"
-      "school    cv        contact"
-      "code      hobbies   handouts"
-      "mac       mac       mac"
-      "footer    footer    footer"
-  }
+
+@media (pointer:fine) and (max-width: 40em) {
+    .wrapper {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'header'
+            'school'
+            'cv'
+            'contact'
+            'code'
+            'hobbies'
+            'handouts'
+            'mac'
+            'footer';
+    }
+}
+
+@media (pointer:coarse) {
+    .wrapper {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'header'
+            'school'
+            'cv'
+            'contact'
+            'code'
+            'hobbies'
+            'handouts'
+            'mac'
+            'footer';
+    }
 }
 
 input[type='checkbox'] {
